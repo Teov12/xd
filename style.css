@@ -1,0 +1,14 @@
+.caja{
+    border: 1px solid red;
+    width: 200px;
+    height: 200px;
+}
+.cajas{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+.cajas img{
+    object-fit:fill;
+}
